@@ -1,0 +1,21 @@
+.main {
+  --shadow: 0 2px 4px rgba(0, 0, 0, 1);
+  min-height: 100vh;
+  width: 100%;
+  background: url(../assets/img/5834c943e07a8.jpg) center center/cover no-repeat;
+  filter: saturate(1%) brightness(70%);
+}
+
+.title {
+  display: flex;
+  margin: 0;
+  padding-top: 241px;
+  color: aliceblue;
+  text-shadow: var(--shadow);
+  &::after {
+  }
+}
+
+.main_intro h1 {
+  letter-spacing: 1vw;
+}
